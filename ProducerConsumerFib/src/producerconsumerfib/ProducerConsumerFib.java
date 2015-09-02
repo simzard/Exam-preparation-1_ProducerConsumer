@@ -14,27 +14,6 @@ import java.util.concurrent.BlockingQueue;
  * @author simon
  */
 public class ProducerConsumerFib {
-
-    public final static int NUM_ELEMENTS = 11;
-    
-    private BlockingQueue<Long> S1 = new ArrayBlockingQueue<>(NUM_ELEMENTS);
-    private BlockingQueue<Long> S2 = new ArrayBlockingQueue<>(NUM_ELEMENTS);
-
-    ProducerThread P1;
-    ProducerThread P2;
-    ProducerThread P3;
-    ProducerThread P4;
-    
-    ConsumerThread C1;
-    
-    public BlockingQueue<Long> getS1() {
-        return S1;
-    }
-
-    public BlockingQueue<Long> getS2() {
-        return S2;
-    }
-
     /**
      * @param args the command line arguments
      */

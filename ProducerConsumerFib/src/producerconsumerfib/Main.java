@@ -7,7 +7,8 @@ package producerconsumerfib;
 
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
-import static producerconsumerfib.ProducerConsumerFib.NUM_ELEMENTS;
+
+
 
 /**
  *
