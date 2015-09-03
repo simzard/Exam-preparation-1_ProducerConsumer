@@ -26,7 +26,8 @@ public class ConsumerThread extends Thread {
     int count = 0;
     
     private BlockingQueue<Long> shared2;
-
+    
+    
     private boolean running = true;
 
     public ConsumerThread(BlockingQueue s2, int m) {
